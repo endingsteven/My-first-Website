@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--  -- Required meta tags --  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+<!--    -- Bootstrap CSS ---->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    
+<!--    --CSS---->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<!--**************************************************************************************    -->
+<!--    --Nav bar---->
+    
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SKATE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Photos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Swag</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Pants</a></li>
+            <li><a class="dropdown-item" href="#">Shirts</a></li>
+            <li><a class="dropdown-item" href="#">Apparel</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    </div>
+</nav> 
+<!--***************************************************************************************-->
+      <!-- Modal -->
+      
+<!--Cool Stuff Modal-->
+<div class="modal fade" id="coolStuffModal" tabindex="-1" aria-labelledby="coolStufflLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get Exclusive Content</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="img-fluid" src="skate%20logo.jpeg">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-sm-12">
+                <div class="modalFormWrapper">
+                    <form>
+                <div class="mb-3">
+                    <label for="formName" class="form-label">What's your name?</label>
+                    <input type="text" class="form-control" id="formName" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="formEmail" class="form-label">Where should we send your cool content?</label>
+                    <input type="text" class="form-control" id="formEmail" placeholder="Email">
+                </div>
+                </form>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="modalCloseButton" type="button" class="btn btn-lg modalCloseButton" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+</div>
+<!-- ***********************************************************************************   -->
+<!-- Kickflip Modal   -->
+    
+<!--    <div class="kf-modal-xl">...</div>-->
+<div class="modal fade kf-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myXlargeModalLabel" aria-hidden="true">   
+    <div class="modal-dialog modal-xl">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <div class="modal-content">
+            <div class=" ratio ratio-16x9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kpVhjV-I6nM" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" allowfullscreen"></iframe>
+            </div>
+            <p class="modalVideos">Kickflips are easy. Pop, Flick, Catch and Land. #BOOM</p>
+        </div>
+    </div>
+</div> 
+    
+    
+<!--360 Flip Modal-->
+
+<div class="modal fade" id="360-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myXlargeModalLabel" aria-hidden="true">   
+    <div class="modal-dialog modal-xl">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <div class="modal-content">
+                <div class=" ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6Qszhe06Ej4" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" allowfullscreen"></iframe>
+                </div>
+                    <p class="modalVideos">360's are easy. Pop and Shuv it, Flick, Catch and Land. #BOOM</p>
+            </div>
+    </div>
+</div> 
+ 
+    
+<!--Varial Kickflip Modal-->
+
+<div class="modal fade vkf-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myXlargeModalLabel" aria-hidden="true">   
+    <div class="modal-dialog modal-xl">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <div class="modal-content">
+            <div class=" ratio ratio-16x9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ff2m--lXE-g" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" allowfullscreen"></iframe>
+            </div>
+            <p class="modalVideos"> Varial Kickflips are easy. Pop , Shuv it (just a little), Flick, Catch and Land. #BOOM</p>
+        </div>
+    </div>
+</div> 
+ 
+<!--*********************************************************************************************-->
+<!--    --Title---->
+    
+<div class="sectionLight">
+        <div class="row">
+            <div class="col-sm-12">
+            <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-3">Welcome to my World</h1>
+        <p class="lead">Total Radness since 1987</p>
+    </div>    
+</div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-12 col-md-6">
+        
+<!--    --Carousel Slide--        -->
+            
+            
+            <div id="mainCarousel" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                    <img src="skate_banner.jpg" class="d-block w-100" alt="First slide">
+
+            </div>
+
+            <div class="carousel-item">
+                    <img src="0x0.jpg" class="d-block w-100" alt="Second slide">
+                    <div class="carousel-caption d-md-block">
+                        <h3>Skate for life!</h3>
+                        <p>Show me some tricks</p>
+                    </div>
+            </div>
+                
+                <div class="carousel-item">
+                    <img src="istock-822205900,483305_1x1_xl.jpg" class="d-block w-100" alt="Third slide">
+                </div>
+            </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel"data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        
+        </div>
+<div class="col"></div>
+    </div>
+</div>    
+
+<!--****************************************************************************************************    -->
+<!--Section Two-->
+    
+<div class="sectionDark">
+    <div class="row">
+        <div class="col-sm-12 col-md-1 offset-md-2">
+            <img class="img-fluid" src="skate%20deck.jpeg">
+        </div>
+        
+        
+        <div class="col-sm-12 col-md-6">
+            <div class="row">
+                <div class="col-sm-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-12 col-md-9">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                
+                <div class="col-sm-12 col-md-3">
+                    <img class="img-fluid" src="skate%20logo.jpeg">
+                </div>
+            </div>
+        </div>
+        
+            <div class="col"></div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="coolStuffWrapper">
+                <button type="button" class="btn btn-lg coolStuffBtn" data-bs-toggle="modal" data-bs-target="#coolStuffModal">Get Cool Stuff</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- *****************************************************************************************************   -->
+<!--Section Light-->
+    
+<div class="sectionLight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="row">
+                
+                <div class="col-sm-12 col-lg-4">
+                    
+                    <img class="img-fluid imgCenter" src="skater-rolling-kickflip-trick-slow-085655741_prevstill">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <button type="button" class="btn btn-danger btn-lg btnCenter" data-bs-toggle="modal" data-bs-target=".kf-modal-xl">Kickflip</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-12 col-lg-4">
+                    
+                    <img class="img-fluid imgCenter360" src="360flip.jpeg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <button type="button" class="btn btn-danger btn-lg btnCenter" data-bs-toggle="modal" data-bs-target="#360-modal-xl">360 Flip</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-12 col-lg-4">
+                    
+                    <img class="img-fluid imgCenter" src="varial%20kickflip.jpeg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <button type="button" class="btn btn-danger btn-lg btnCenter" data-bs-toggle="modal" data-bs-target=".vkf-modal-xl">Varial Kickflip</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!--**************************************************************************************************    -->
+
+<!--Footer-->
+
+<footer class="footer footer-dark bg-dark bg-inverse">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-lg-3">
+                <img class="img-fluid footerImg" src="skate%20logo%20Kopie.png">
+            </div>
+            
+            <div class="col-sm-12 col-lg-9 socialWrapper">
+                
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fa fa-facebook-square fa-5x" id="fb-icon" aria-hidden="true"></i></a>
+                
+                <a href="https://google.com" target="_blank">
+            <i class="fa fa-google-plus-square fa-5x" aria-hidden="true"></i></a>
+                
+                <a href="https://instagram.com" target="_blank">
+            <i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>
+                
+            </div>
+        
+        </div>
+    </div>
+</footer>    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--**************************************************************************************************   -->
+
+<!----jQuery first, then Tether, then Bootstrap JS. ---->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+</body>
+
+
+</html>
