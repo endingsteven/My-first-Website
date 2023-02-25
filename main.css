@@ -1,0 +1,146 @@
+/*Title*/
+
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    padding: 2em;
+}
+
+/*Section Two*/
+
+.coolStuffWrapper {
+    margin-top: 20px;
+}
+
+button.coolStuffBtn {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+/*Modals*/
+
+h5.modal-title {
+    margin: auto;
+    text-align: center;
+}
+
+.modalFormWrapper {
+    padding: 2rem;
+}
+
+button.modalCloseButton {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+/*Section Light*/
+
+.imgCenter {
+    display: block;
+    margin: auto;
+    height: auto;
+    
+}
+
+/*
+.btnCenter {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+*/
+
+.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 39%;
+}
+
+
+/*Video Modal*/
+
+.btn-secondary {
+    background-color: red;
+    color: #ffffff;
+}
+
+
+.modalVideos {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+.footerImg {
+    padding: 15px;
+}
+
+.fa-facebook-square {
+    color: #3b5988;
+}
+
+.fa-google-plus-square {
+    color: #ffffff;
+}
+
+
+.fa-instagram {
+    color: red; 
+    margin: auto;
+}
+
+.socialWrapper {
+    margin: auto;
+}
+
+.fa {
+    margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
